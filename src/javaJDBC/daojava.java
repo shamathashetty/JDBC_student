@@ -34,7 +34,7 @@ class Studentdao{
 	public void connect() throws Exception {
 		String jdbcUrl = "jdbc:mysql://localhost:3307/student";
 		String name = "root";
-        String password = "s.sshetty2003";
+        String password = "YOURPASSWORD";
 		Class.forName("com.mysql.jdbc.Driver");
 	    con = DriverManager.getConnection(jdbcUrl, name, password);
 	}
